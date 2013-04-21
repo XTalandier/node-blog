@@ -1,0 +1,20 @@
+{
+  "name": "node-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.0",
+    "hogan-express": "*",
+    "mysql" : "*",
+    "sequelize" : "*"
+  },
+   "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "0.0.1",
+    "node-phantom" : "*"
+  }
+}
